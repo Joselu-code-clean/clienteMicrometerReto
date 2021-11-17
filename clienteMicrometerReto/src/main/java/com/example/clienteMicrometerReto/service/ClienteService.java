@@ -15,7 +15,7 @@ public class ClienteService {
 	Logger logger = LoggerFactory.getLogger(ClienteService.class);
 	
 	RestTemplate restTemplate = new RestTemplate();
-	String urlBase = "http://localhost:8080/estados/";
+	String urlBase = "http://localhost:8080/";
 	String writeEndPoint = "estados/";
 	
 
