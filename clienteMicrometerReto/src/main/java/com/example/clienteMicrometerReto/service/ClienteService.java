@@ -16,7 +16,7 @@ public class ClienteService {
 	
 	RestTemplate restTemplate = new RestTemplate();
 	String urlBase = "http://localhost:8080/";
-	String writeEndPoint = "estados/";
+	String writeEndPoint = "estados/writer";
 	
 
 	
